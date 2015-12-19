@@ -1,0 +1,46 @@
+﻿生成启动时间为 2015/12/19 13:40:19。
+     1>项目“C:\Users\TR\Desktop\THU\htmlResolution\stage5\src\music\music.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BTree.cpp CharString.cpp CharStringLink.cpp DocLink.cpp invertedIndex.cpp loadFromHtml.cpp main.cpp recommend.cpp search.cpp stack.cpp
+         BTree.cpp
+         CharString.cpp
+     1>CharString.cpp(253): warning C4305: “=”: 从“int”到“char”截断
+     1>CharString.cpp(253): warning C4309: “=”: 截断常量值
+         CharStringLink.cpp
+         DocLink.cpp
+         invertedIndex.cpp
+         loadFromHtml.cpp
+     1>loadFromHtml.cpp(330): warning C4018: “<”: 有符号/无符号不匹配
+     1>loadFromHtml.cpp(339): warning C4018: “<”: 有符号/无符号不匹配
+     1>loadFromHtml.cpp(399): warning C4018: “<”: 有符号/无符号不匹配
+     1>loadFromHtml.cpp(408): warning C4018: “<”: 有符号/无符号不匹配
+         main.cpp
+     1>main.cpp(69): warning C4018: “<”: 有符号/无符号不匹配
+         recommend.cpp
+     1>recommend.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
+     1>recommend.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>recommend.cpp(47): warning C4018: “<”: 有符号/无符号不匹配
+     1>recommend.cpp(18): warning C4101: “TermID”: 未引用的局部变量
+         search.cpp
+     1>search.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>search.cpp(75): warning C4018: “<”: 有符号/无符号不匹配
+         stack.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\TR\Desktop\THU\htmlResolution\stage5\src\Release\music.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\TR\Desktop\THU\htmlResolution\stage5\src\Release\music.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\TR\Desktop\THU\htmlResolution\stage5\src\Release\music.lib" /MACHINE:X86 /SAFESEH Release\BTree.obj
+         Release\CharString.obj
+         Release\CharStringLink.obj
+         Release\DocLink.obj
+         Release\invertedIndex.obj
+         Release\loadFromHtml.obj
+         Release\main.obj
+         Release\recommend.obj
+         Release\search.obj
+         Release\stack.obj
+         正在生成代码
+         已完成代码的生成
+         music.vcxproj -> C:\Users\TR\Desktop\THU\htmlResolution\stage5\src\Release\music.exe
+     1>已完成生成项目“C:\Users\TR\Desktop\THU\htmlResolution\stage5\src\music\music.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.68
